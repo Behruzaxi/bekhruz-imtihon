@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.orange{
+    border-radius: 20px;
+    background-color: #FF7A50;
+    margin-bottom: 50px;
+}
+
+.subscribe{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.get{
+ text-align: center;
+color: white;
+margin-top: -15px;
+}
+
+.input{
+    padding-left: 10px;
+    margin-top: 40px;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.folow{
+    background-color: #FF7A50;
+    border:2px  grah;
+    color: #fff;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

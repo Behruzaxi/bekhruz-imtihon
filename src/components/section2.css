@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.onecard{
+    border: none;
+}
+
+.soat{
+    font-size: 12px;
+}
+
+.top{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.top span{
+color: #FF7A50;
+}
+
+.strelkabuton{
+    background-color: #FF7A50;
+    border-radius: 15px;
+    padding-left: 40px;
+    border: none;
+    padding-right: 40px;
+    margin-left: 150px;
+    margin-top: -90px;
+}
+.ota{
+    margin-left: 100px;
+    display: flex;
+    gap: 120px;
+}
+
+.mobile{
+    margin-top: 300px;
+    margin-left: 80px;
+}
+
+.mobile span{
+    color: #FF7A50;
+}
+
+.itspi{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #363853;
+
+opacity: 0.9;
+}
+
+.apps{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.phone{
+    margin-top: 150px;
+}
+
+.what{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.what span{
+    color: #FF7A50;
+}
+
+.woman{
+    margin-top: 100px;
+}
+
+.pitags{
+    margin-top: 200px;
+    font-size: 28px;
+}
+.swam{
+    margin-top: 80px;
+}
+
+.swam span{
+   
+    color: #FF7A50;
+}

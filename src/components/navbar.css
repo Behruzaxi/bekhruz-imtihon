@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+    gap: 30px;
+    margin-top: -20px;
+}
+
+.food {
+    margin-top: 50px;
+}
+
+.serch {
+    margin-right: 40px;
+}
+
+.btncha {
+    margin-top: 50px;
+    /* Secondary */
+
+    background: #FF7A50;
+    /* Clor shadow */
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    border: none;
+}
+
+.hbir {
+    margin-left: 20px;
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 78px;
+    text-transform: capitalize;
+
+    /* Primary */
+
+    color: #363853;
+}
+
+.hbir span {
+    color: #FF7A50;
+}
+
+.pi {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+
+}
+
+.expbut {
+    margin-top: 60px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background-color: #FF7A50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.down {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #363853;
+    margin-left: 180px;
+    margin-top: -30px;
+}
+
+.skuterguy {
+    width: 100%;
+}
