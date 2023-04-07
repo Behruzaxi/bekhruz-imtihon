@@ -36,11 +36,109 @@ margin-top: -15px;
 
 .folow{
     background-color: #FF7A50;
-    border:2px  grah;
+    
     color: #fff;
     border-radius: 20px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.ikonchalar{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.one{
+    list-style: none;
+    font-size: 20px;
+}
+
+.onene{
+    padding-bottom: 10px;
+}
+
+.displayone{
+    font-family: 'Rubik';
+color: #37383D;
+    margin-left: 280px;
+    margin-top: -190px;
+}
+
+.two{
+    list-style: none;
+}
+
+.displaytwo{
+    font-size: 20px;
+    font-family: 'Rubik';
+color: #37383D;
+    margin-left: 500px;
+    margin-top: -215px;
+}
+
+.twoe{
+    padding-bottom: 10px;
+}
+
+.thre{
+    list-style:none;
+    padding-bottom: 10px;
+}
+
+
+.displaythre{
+    font-size: 20px;
+    font-family: 'Rubik';
+color: #37383D;
+    margin-left: 740px;
+    margin-top: -215px;
+}
+
+.four{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.displayfour{
+    font-size: 20px;
+    font-family: 'Rubik';
+color: #37383D;
+    margin-left: 960px;
+    margin-top: -225px;
+}
+
+.one span{
+color: black;
+font-style: normal;
+font-weight: 700;
+}
+
+.two span{
+color: black;
+font-style: normal;
+font-weight: 700;
+}
+
+.thre span{
+color: black;
+font-style: normal;
+font-weight: 700;
+}
+
+.four span{
+color: black;
+font-style: normal;
+font-weight: 700;
+}
+
+.ohiri{
+    list-style: none;
+    display: flex;
+    margin-left: 1000px;
+    gap: 25px;
+    margin-top: -40px;
+    color: #646464;
 }
