@@ -1,16 +1,21 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Section1 from './components/Section1'
-import Section2 from './components/Section2'
-import Footer from './components/Footer'
+import {BrowserRouter as Router,Route, Routes} from 'react-router-dom'
+import Cred from './components/Cred/Cred'
+import Allbabyis from './components/AllBaby/Allbabyis'
+import Futal from './components/Footer/Futal'
+import Navboal from './components/Navbar/Navboal'
 
 export default function App() {
   return (
     <>
-    <Navbar/>
-    <Section1/> 
-    <Section2/>
-    <Footer/>
+    <Router>
+      <Navboal/>
+        <Routes>
+          <Route path="/Create" element={<Cred/>} />
+        </Routes>
+      </Router>
+      <Allbabyis/>
+      <Futal/>
     </>
   )
 }

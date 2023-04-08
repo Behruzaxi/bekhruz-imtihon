@@ -1,20 +1,20 @@
 import React from 'react'
 import "./section1.css"
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-const burge = require("../img/burger.png")
-const pizza = require("../img/pizza.png")
-const sandwich = require("../img/sandwich.png")
-const asian = require("../img/asian.png")
-const menu = require("../img/menu.png")
-const bergu = require("../img/bergu.png")
-const burgerbir = require("../img/Burger (1).png")
-const burgertwo = require("../img/burger2.png")
-const burgerthree = require("../img/burger3.png")
-const burgerfour = require("../img/burger4.png")
-const man = require("../img/man.png")
-const time = require("../img/time.png")
-const outline = require("../img/Outline.png")
-const kitay = require("../img/kitaay.png")
+const burge = require("./img/burger.png")
+const pizza = require("./img/pizza.png")
+const sandwich = require("./img/sandwich.png")
+const asian = require("./img/asian.png")
+const menu = require("./img/menu.png")
+const bergu = require("./img/bergu.png")
+const burgerbir = require("./img/Burger (1).png")
+const burgertwo = require("./img/burger2.png")
+const burgerthree = require("./img/burger3.png")
+const burgerfour = require("./img/burger4.png")
+const man = require("./img/man.png")
+const time = require("./img/time.png")
+const outline = require("./img/time.png")
+const kitay = require("./img/kitaay.png")
 
 export default function Section1() {
     return (

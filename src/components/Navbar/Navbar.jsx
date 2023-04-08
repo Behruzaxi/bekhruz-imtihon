@@ -1,14 +1,17 @@
 import React from 'react'
 import "./navbar.css"
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Nav, Row } from 'react-bootstrap'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-const food = require("../img/EFood.png")
-const skuter = require("../img/Scooter Guy.png")
+import { Link } from 'react-router-dom';
+const food = require("../AllBaby/img/EFood.png")
+const skuter = require("../AllBaby/img/Scooter Guy.png")
 
 export default function Navbar() {
     return (
         <>
+
+
             <Container>
                 <Row>
                     <Col xs={8}>
@@ -17,8 +20,16 @@ export default function Navbar() {
                         <ul className='list'>
                             <li className='list_item'>Home</li>
                             <li className='list_item'>Service</li>
-                            <li className='list_item'>Top cities</li>
-                            <li className='list_item'>Contract</li>
+                            <li className='list_item'>Products</li>
+                            
+                            <Nav className="me-auto"> 
+                        <Link to="/create" style={{textDecoration: "none", listStyle: "none", paddingLeft: "20px"}}>
+                        <li className='list_item'>Products</li>
+                        </Link>
+                        <Link to="/table" style={{textDecoration: "none", listStyle: "none", paddingLeft: "20px", color: "white"}}>
+                        <li>Table</li>
+                        </Link>
+                    </Nav>
                         </ul>
 
                     </Col>
@@ -29,8 +40,10 @@ export default function Navbar() {
                     <Col>
                         <Button className='btncha'>Sign Up</Button>
                     </Col>
+ 
                 </Row>
             </Container>
+
 
 
             <Container>

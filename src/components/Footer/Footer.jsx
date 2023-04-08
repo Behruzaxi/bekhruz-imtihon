@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './Footeer.css'
-const faka = require("../img/EFood.png")
+const faka = require("../AllBaby/img/EFood.png")
 
 export default function Footer() {
   return (

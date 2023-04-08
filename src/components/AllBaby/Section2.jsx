@@ -4,15 +4,15 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import EastIcon from '@mui/icons-material/East';
 import WestIcon from '@mui/icons-material/West';
-const pizzaone = require("../img2/pizza.png")
-const pizzatwo = require("../img2/pizza2.png")
-const pizzathree = require("../img2/pizza3.png")
-const burger = require("../img2/burger.png")
-const burgertwo = require("../img2/burgertwo.png")
-const burgerthree = require("../img2/burgethree.png")
-const apps = require("../img2/Download app.png")
-const phone = require("../img2/phones.png")
-const woman = require("../img2/woman.png")
+const pizzaone = require("./img2/pizza.png")
+const pizzatwo = require("./img2/pizza2.png")
+const pizzathree = require("./img2/pizza3.png")
+const burger = require("./img2/burger.png")
+const burgertwo = require("./img2/burgertwo.png")
+const burgerthree = require("./img2/burgethree.png")
+const apps = require("./img2/Download app.png")
+const phone = require("./img2/phones.png")
+const woman = require("./img2/woman.png")
 
 export default function Section2() {
     return (
