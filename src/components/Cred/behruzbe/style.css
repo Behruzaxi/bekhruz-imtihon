@@ -1,6 +1,15 @@
 .tble{
-    width: 200px;
-    height: 100px;
+    width: 50px;
+    height: 10px;
    }    
+   .tablellee{
+    width: 100%;
+   }
    
    
+   @media (max-width: 575px) {
+    .tablellee{
+        margin-left: -50px;
+        width: 100%;
+    }
+   }

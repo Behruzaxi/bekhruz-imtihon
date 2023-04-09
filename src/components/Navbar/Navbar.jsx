@@ -41,7 +41,7 @@ export default function Navbar() {
                         </ul>
 
                     </Col>
-                    <Col xs={2} className='d-block' style={{ marginTop: '50px' }}>
+                    <Col xs={2} className='d-none' style={{ marginTop: '50px' }}>
                         <SearchIcon className='serch'></SearchIcon>
                         <ShoppingCartIcon className='shop'></ShoppingCartIcon>
                     </Col>
@@ -68,10 +68,10 @@ export default function Navbar() {
                         <h1 className='hbir'>{t("text.super")} <span></span>
                             <span> </span> </h1>
 
-                        <p className='pi'>We provide super fast-delivery service. Let’s use our<br></br> services right now and get discounts of up to 50%</p>
+                        <p className='pi'>{t("text.mi")}<br></br></p>
 
-                        <button className='expbut'>Explore Food</button>
-                        <p className='down'>Download App</p>
+                        <button className='expbut'>{t("text.expbut")}</button>
+                        <p className='down'>{t("text.zi")}</p>
                     </Col>
                     <Col>
                         <img src={skuter} alt='' className='skuterguy' />

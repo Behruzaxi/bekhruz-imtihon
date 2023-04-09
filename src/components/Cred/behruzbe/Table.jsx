@@ -27,14 +27,13 @@ useEffect(() => {
         <>
             <Container>
                 <Row className='justify-content-center mt-5'>
-                    <Col xs={10}>
-                        <Table striped bordered hover>
+                    <Col xs={10} sm={8}>
+                        <Table className='tablellee' striped bordered hover>
                             <thead>
                                 <tr>
-                                    <th>#</th>
-                                    <th> Name</th>
-                                    <th> Email</th>
-                                    <th>Password</th>
+                                    <th style={{"fontSize": "15px"}}> Name</th>
+                                    <th style={{"fontSize": "15px"}}> Email</th>
+                                    <th style={{"fontSize": "15px"}}>Password</th>
                                 </tr>
                             </thead>
                             <tbody className='tble'>
@@ -42,12 +41,11 @@ useEffect(() => {
                                 {user?.map((data) => {
                                     return (
                                         <>
-                                <tr style={{paddingTop: "50px"}}>
-                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.id}</td>
-                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.name}</td>
-                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.email}</td>
-                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.password}</td>
-                                    <button style={{marginLeft: "30px", padding: "10px, 10px ,10px, 10px", backgroundColor: "red", borderRadius: "8px", color: "white"}}  onClick={() => delete_func(data.id)}>delete</button>
+                                <tr style={{paddingTop: "10px"}}>
+                                    <td style={{fontSize: "15px", paddingTop: "10px"}}>{data.name}</td>
+                                    <td style={{fontSize: "15px", paddingTop: "10px"}}>{data.email}</td>
+                                    <td style={{fontSize: "15px", paddingTop: "10px"}}>{data.password}</td>
+                                    <button style={{marginLeft: "5px", padding: "3px, 3px ,3px, 3px", backgroundColor: "red", borderRadius: "8px", color: "white"}}  onClick={() => delete_func(data.id)}>delete</button>
                                 </tr>   
                                         </>
                                     )

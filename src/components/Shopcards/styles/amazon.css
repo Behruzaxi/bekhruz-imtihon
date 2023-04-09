@@ -15,6 +15,7 @@ section {
 .cards {
   width: 250px;
   padding: 20px;
+  
 }
 .cards:hover {
   box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
@@ -52,4 +53,11 @@ section {
   font-weight: bold;
   background-color: #FF7A50;
   outline: none;
+}
+
+
+@media (max-width:575px){
+  .cards{
+    display: block; 
+  }
 }

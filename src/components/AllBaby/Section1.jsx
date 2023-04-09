@@ -1,6 +1,7 @@
 import React from 'react'
 import "./section1.css"
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import { t } from 'i18next'
 const burge = require("./img/burger.png")
 const pizza = require("./img/pizza.png")
 const sandwich = require("./img/sandwich.png")
@@ -21,7 +22,7 @@ export default function Section1() {
         <>
             <Container>
                 <Row >
-                    <h2 className='our'>Our popular <span>Category</span> </h2>
+                    <h2 className='our'>{t("text.our")}</h2>
 
                     <Col xs={12}>
                         <div className='foodcard'>
@@ -36,7 +37,7 @@ export default function Section1() {
 
                         <div className='xura'>
                             <img src={sandwich} alt='' className='sandvich' />
-                            <h4 className='xurasoz'>sandwich</h4>
+                            <h4 className='xurasoz'>Sandwich</h4>
                         </div>
 
                         <div className='alibaba'>
