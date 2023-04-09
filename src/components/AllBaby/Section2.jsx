@@ -37,7 +37,7 @@ export default function Section2() {
                                 <Card style={{ width: '18rem', border: 'none' }}>
                                     <img src={pizzatwo} alt='' className='pizzaone' />
                                     <Card.Body>
-                                        <Card.Title>Blaze Pizza</Card.Title>
+                                        <Card.Title>Pizza Ranch</Card.Title>
                                         <Card.Text className='soat'>11.00 AM - 10.00 PM</Card.Text>
                                         <Button className='strelkabuton'><ArrowRightAltIcon></ArrowRightAltIcon></Button>
                                     </Card.Body>
@@ -48,7 +48,7 @@ export default function Section2() {
                                 <Card style={{ width: '18rem', border: 'none' }}>
                                     <img src={pizzathree} alt='' className='pizzaone' />
                                     <Card.Body>
-                                        <Card.Title>Blaze Pizza</Card.Title>
+                                        <Card.Title>Dion’s Pizza Hut</Card.Title>
                                         <Card.Text className='soat'>11.00 AM - 10.00 PM</Card.Text>
                                         <Button className='strelkabuton'><ArrowRightAltIcon></ArrowRightAltIcon></Button>
                                     </Card.Body>
@@ -65,7 +65,7 @@ export default function Section2() {
                                 <Card style={{ width: '18rem', border: 'none' }}>
                                     <img src={burger} alt='' className='pizzaone' />
                                     <Card.Body>
-                                        <Card.Title>Blaze Pizza</Card.Title>
+                                        <Card.Title>Royel Burger</Card.Title>
                                         <Card.Text className='soat'>11.00 AM - 10.00 PM</Card.Text>
                                         <Button className='strelkabuton'><ArrowRightAltIcon></ArrowRightAltIcon></Button>
                                     </Card.Body>
@@ -76,7 +76,7 @@ export default function Section2() {
                                 <Card style={{ width: '18rem', border: 'none' }}>
                                     <img src={burgertwo} alt='' className='pizzaone' />
                                     <Card.Body>
-                                        <Card.Title>Blaze Pizza</Card.Title>
+                                        <Card.Title>KFC Restaurant</Card.Title>
                                         <Card.Text className='soat'>11.00 AM - 10.00 PM</Card.Text>
                                         <Button className='strelkabuton'><ArrowRightAltIcon></ArrowRightAltIcon></Button>
                                     </Card.Body>
@@ -87,7 +87,7 @@ export default function Section2() {
                                 <Card style={{ width: '18rem', border: 'none' }}>
                                     <img src={burgerthree} alt='' className='pizzaone' />
                                     <Card.Body>
-                                        <Card.Title>Blaze Pizza</Card.Title>
+                                        <Card.Title>Star Food</Card.Title>
                                         <Card.Text className='soat'>11.00 AM - 10.00 PM</Card.Text>
                                         <Button className='strelkabuton'><ArrowRightAltIcon></ArrowRightAltIcon></Button>
                                     </Card.Body>
