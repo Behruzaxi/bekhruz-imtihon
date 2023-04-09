@@ -1,13 +1,23 @@
 import React from 'react'
 import "./navbar.css"
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Dropdown, DropdownButton, Row } from 'react-bootstrap'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import i18next from "i18next"
+import { useTranslation } from 'react-i18next'
+
 import { Link } from 'react-router-dom';
 const food = require("../AllBaby/img/EFood.png")
 const skuter = require("../AllBaby/img/Scooter Guy.png")
 
 export default function Navbar() {
+
+    const { t } = useTranslation()
+
+    const handleClick = (lang) => {
+        i18next.changeLanguage(lang)
+    }
+
     return (
         <>
 
@@ -18,16 +28,16 @@ export default function Navbar() {
                         <img src={food} alt='' className='food' />
 
                         <ul className='list'>
-                        <Link to="/home" style={{textDecoration: "none", listStyle: "none"}}>
-                            <li className='list_item'>Home</li>
-                        </Link>
+                            <Link to="/home" style={{ textDecoration: "none", listStyle: "none" }}>
+                                <li className='list_item'>Home</li>
+                            </Link>
                             <li className='list_item'>About</li>
-                            <Link to="/Shop" style={{textDecoration: "none", listStyle: "none"}}>
-                        <li className='list_item'>Shop</li>
-                        </Link>
-                        <Link to="/Create" style={{textDecoration: "none", listStyle: "none"}}>
-                        <li className='list_item'>Products</li>
-                        </Link>
+                            <Link to="/Shop" style={{ textDecoration: "none", listStyle: "none" }}>
+                                <li className='list_item'>Shop</li>
+                            </Link>
+                            <Link to="/Create" style={{ textDecoration: "none", listStyle: "none" }}>
+                                <li className='list_item'>Products</li>
+                            </Link>
                         </ul>
 
                     </Col>
@@ -35,10 +45,18 @@ export default function Navbar() {
                         <SearchIcon className='serch'></SearchIcon>
                         <ShoppingCartIcon className='shop'></ShoppingCartIcon>
                     </Col>
+               
+
                     <Col>
-                        <Button className='btncha'>Sign Up</Button>
+                        <div className='dropd'>
+                            <DropdownButton id="dropdown-basic-button" title="Language">
+                                <Dropdown.Item className='buto' onClick={() => handleClick("eng")}>English</Dropdown.Item>
+                                <Dropdown.Item className='buto' onClick={() => handleClick("ru")}>Russian</Dropdown.Item>
+                                <Dropdown.Item className='buto' onClick={() => handleClick("uz")}>Uzbek</Dropdown.Item>
+                            </DropdownButton>
+                        </div>
                     </Col>
- 
+
                 </Row>
             </Container>
 
@@ -46,11 +64,11 @@ export default function Navbar() {
 
             <Container>
                 <Row>
-                    <Col  sm={6} xm={4} >
-                        <h1 className='hbir'>Super Fast <span>Food</span>
-                            <span> Delivery</span> Service</h1>
+                    <Col sm={6} xm={4} >
+                        <h1 className='hbir'>{t("text.super")} <span></span>
+                            <span> </span> </h1>
 
-                        <p  className='pi'>We provide super fast-delivery service. Let’s use our<br></br> services right now and get discounts of up to 50%</p>
+                        <p className='pi'>We provide super fast-delivery service. Let’s use our<br></br> services right now and get discounts of up to 50%</p>
 
                         <button className='expbut'>Explore Food</button>
                         <p className='down'>Download App</p>
