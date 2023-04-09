@@ -18,6 +18,9 @@
 .serch {
     margin-right: 40px;
 }
+.serch{
+        margin-right: 40px;
+}
 
 .btncha {
     margin-top: 50px;
@@ -87,4 +90,56 @@
 
 .skuterguy {
     width: 100%;
+}
+
+
+
+@media  (max-width:575px) {
+    .list {
+        list-style: none;
+        display: flex;
+        gap: 17px;
+        margin-top: 55px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .food {
+        margin-top: 50px;
+        margin-left: 125px;
+    }
+    .btncha {
+        margin-top: 20px;
+        background: #FF7A50;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+        border-radius: 5px;
+        border: none;
+        margin-left: 130px;
+    }
+    .hbir {
+        font-size: 20px;
+        width: 380px;
+        margin-top: -0px;
+        text-transform: capitalize;
+        color: #363853;
+    }
+    .pi{
+        display: none;
+    }
+    .skuterguy {
+        width: 100%;
+        margin-top: -600px;
+    }
+    .expbut {
+        margin-top: 400px;
+        margin-left: 20px;
+        border: none;
+        color: white;
+        background-color: #FF7A50;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

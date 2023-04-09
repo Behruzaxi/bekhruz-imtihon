@@ -68,7 +68,7 @@ export default function Section1() {
                             </div>
 
                             <div className='cardone'>
-                                <Card style={{ width: '16rem' }}>
+                                <Card style={{ width: '16rem'}}>
                                     <img className='bergur' src={burgerbir} alt='' />
                                     <Card.Body>
                                         <Card.Title className='chese'>Beef Burger</Card.Title>
@@ -118,7 +118,7 @@ export default function Section1() {
 
 
                 <Row>
-                    <Col xs={6}>
+                    <Col xs={6} xm={6}>
                         <img src={man} alt='' className='man' />
                     </Col>
                     <Col xs={6}>
@@ -126,7 +126,7 @@ export default function Section1() {
                             <span>Stay</span> at Home, We Will <br></br>Provide <span>Good Food</span>
                         </h2>
 
-                        <p className='manpi'>We provide tasty food and superfast delivery at <br></br>your home.  Let’s use our services right now and<br></br> get discounts of up to 50%.</p>
+                        <p className='manpi'>We provide  food and superfast delivery at <br></br>your home.  Let’s use our  right now and<br></br> get  of  to 50%.</p>
 
                         <img src={time} alt='' className='timicon' />
                         <h6 className='fastedtime'>fasted delivery in 30 Minutes</h6>

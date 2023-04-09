@@ -202,3 +202,82 @@
     margin-left: 80px;
     margin-top: -25px;
 }
+
+
+@media (max-width: 575px) {
+    .foodcard {
+        display: none;
+    }
+
+    .bexa {
+        display: none;
+    }
+
+    .xura {
+        display: none;
+    }
+
+    .alibaba {
+        display: none;
+    }
+
+    .suuu {
+        display: none;
+    }
+
+    .cartoto {
+        margin-left: 45px;
+        display: block;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .cardone{
+        margin-top: 30px;
+    }
+    .man{
+        margin-left: 50px;
+        width: 300px;
+    }
+    .manword {
+        width: 300px;
+        text-align: center;
+        font-size: 26px;
+        margin-left: -160px;
+        text-transform: capitalize;
+        margin-top: 350px;
+        color: #363853;
+    }
+    .manpi {
+        margin-left: -210px;
+        text-align: center;
+        margin-top: 30px;
+        width: 390px;
+        color: #363853;
+        opacity: 0.9;
+    }
+    .timicon {
+        margin-top: 20px;
+        margin-left: -140px;
+    }
+    .fastedtime {
+        margin-left: -80px;
+    margin-top: -29px;
+}
+.outline {
+    margin-top: 20px;
+    margin-left: -140px;
+}
+.outlinetext {
+    margin-left: -80px;
+    margin-top: -29px;
+}
+.kitay {
+    margin-left: -130px;
+    margin-top: 35px;
+}
+.kitaytext {
+    margin-left: -80px;
+    margin-top: -23px;
+}
+}

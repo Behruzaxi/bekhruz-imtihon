@@ -74,8 +74,10 @@ export default function Footer() {
               </ul>
           </div>
           <hr></hr>
-
+    
+          <div className='fotbol'>
           <p>© 2021 EFood - All rights reserved.</p>
+          </div>
 
           <div className='ohirgi'>
             <ul className='ohiri'>

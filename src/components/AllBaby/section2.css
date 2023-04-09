@@ -95,3 +95,45 @@ opacity: 0.9;
    
     color: #FF7A50;
 }
+
+@media (max-width: 575px) {
+    .ota{
+        display: block;
+         margin-left: 30px;
+    }
+    .mobile {
+        margin-top: 100px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+    }
+    .itspi {
+            display: none;
+    }
+    .phone {
+        margin-top: 300px;
+        margin-left: -150px;
+        width: 280px;
+    }
+    .apps {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .woman {
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 25px;
+    }
+    .pitags {
+      display: none;
+    }
+    .swam{
+        margin-top: 400px;
+        margin-left: -80px;
+    }
+    .right{
+        margin-left: -45px;
+        margin-bottom: 50px;
+    }
+
+}

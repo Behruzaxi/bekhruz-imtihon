@@ -142,3 +142,56 @@ font-weight: 700;
     margin-top: -40px;
     color: #646464;
 }
+
+@media (max-width: 575px) {
+    .input {
+        padding-left: 10px;
+        margin-top: 40px;
+        width: 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+    .folow {
+        background-color: #FF7A50;
+        color: #cddbe0;
+        border-radius: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-color:  #aed5e3;
+        margin-top: -80px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    .one {
+      display: none;
+    }
+    .two {
+        display: none;
+    }
+    .thre {
+        display: none;
+    }
+    .four {
+        list-style: none;
+        display: none;
+        padding-bottom: 10px;
+    }
+    .ohiri {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        margin-left: 160px;
+        margin-top: 200px;
+        color: #646464;
+        display: none;  
+    }
+    .fotbol{
+        margin-top: 250px;
+    }
+}

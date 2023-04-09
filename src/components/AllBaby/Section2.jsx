@@ -126,9 +126,11 @@ export default function Section2() {
 
                         <h4 className='swam'><span>Anglina Jole</span></h4>
 
+                        <div className='right'>
 
                         <WestIcon></WestIcon>
                         <EastIcon></EastIcon>
+                        </div>
                     </Col>
                 </Row>
             </Container>
