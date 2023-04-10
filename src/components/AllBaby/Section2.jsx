@@ -1,5 +1,7 @@
 import React from 'react'
 import "./section2.css"
+import i18next from "i18next"
+import { useTranslation } from 'react-i18next'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import EastIcon from '@mui/icons-material/East';
@@ -15,11 +17,18 @@ const phone = require("./img2/phones.png")
 const woman = require("./img2/woman.png")
 
 export default function Section2() {
+
+    const { t } = useTranslation()
+
+    const handleClick = (lang) => {
+        i18next.changeLanguage(lang)
+    }
+
     return (
         <>
             <Container>
                 <Row className='justify-content-center mt-5'>
-                    <h1 className='top'>Top Food <span>Restaurant</span></h1>
+                    <h1 className='top'>{t("text.top")}<span> {t("text.tor")}</span></h1>
                     <Col xs={12}>
                         <div className='ota'>
                             <div className='onecard'>
@@ -101,7 +110,7 @@ export default function Section2() {
             <Container>
                 <Row>
                     <Col xs={6}>
-                            <h1 className='mobile'>Download  Our <span>Mobile App</span></h1>
+                            <h1 className='mobile'>{t("text.lo")}<span> {t("text.poo")}</span></h1>
                             <p className='itspi'>
                             It's all at your fingertips -- the restaurants you love. Find<br></br>the right food to suit your mood, and make the first bite <br></br>last. Go ahead, download app and get 50% discount
                             </p>

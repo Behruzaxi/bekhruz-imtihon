@@ -1,7 +1,8 @@
 import React from 'react'
+import i18next from "i18next"
 import "./section1.css"
+import { useTranslation } from 'react-i18next'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { t } from 'i18next'
 const burge = require("./img/burger.png")
 const pizza = require("./img/pizza.png")
 const sandwich = require("./img/sandwich.png")
@@ -18,6 +19,12 @@ const outline = require("./img/time.png")
 const kitay = require("./img/kitaay.png")
 
 export default function Section1() {
+
+    const { t } = useTranslation()
+
+    const handleClick = (lang) => {
+        i18next.changeLanguage(lang)
+    }
     return (
         <>
             <Container>
@@ -61,20 +68,20 @@ export default function Section1() {
                                 <Card style={{ width: '16rem' }}>
                                     <img className='bergur' src={bergu} alt='' />
                                     <Card.Body>
-                                        <Card.Title className='chese'>Cheeseburger With Salad</Card.Title>
+                                        <Card.Title className='chese'>{t("text.ches")}</Card.Title>
                                         <Card.Title className='ches'>$18.00</Card.Title>
-                                        <Button className='cadbut'>Add to Cart</Button>
+                                        <Button className='cadbut'>{t("text.add")}</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
 
                             <div className='cardone'>
-                                <Card style={{ width: '16rem'}}>
+                                <Card style={{ width: '16rem' }}>
                                     <img className='bergur' src={burgerbir} alt='' />
                                     <Card.Body>
-                                        <Card.Title className='chese'>Beef Burger</Card.Title>
+                                        <Card.Title className='chese'>{t("text.mol")}</Card.Title>
                                         <Card.Title className='ches'>$15.00</Card.Title>
-                                        <Button className='cadbut'>Add to Cart</Button>
+                                        <Button className='cadbut'>{t("text.add")}</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -83,9 +90,9 @@ export default function Section1() {
                                 <Card style={{ width: '16rem' }}>
                                     <img className='bergur' src={burgertwo} alt='' />
                                     <Card.Body>
-                                        <Card.Title className='chese'>Royel Cheeseburger</Card.Title>
+                                        <Card.Title className='chese'>{t("text.royal")}</Card.Title>
                                         <Card.Title className='ches'>$16.00</Card.Title>
-                                        <Button className='cadbut'>Add to Cart</Button>
+                                        <Button className='cadbut'>{t("text.add")}</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -94,9 +101,9 @@ export default function Section1() {
                                 <Card style={{ width: '16rem' }}>
                                     <img className='bergur' src={burgerthree} alt='' />
                                     <Card.Body>
-                                        <Card.Title className='chese'>Black Gambugrer </Card.Title>
+                                        <Card.Title className='chese'>{t("text.qora")}</Card.Title>
                                         <Card.Title className='ches'>$14.00</Card.Title>
-                                        <Button className='cadbut'>Add to Cart</Button>
+                                        <Button className='cadbut'>{t("text.add")}</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -106,9 +113,9 @@ export default function Section1() {
                                 <Card style={{ width: '16rem' }}>
                                     <img className='bergur' src={burgerfour} alt='' />
                                     <Card.Body>
-                                        <Card.Title className='chese'> Chicken Burger</Card.Title>
+                                        <Card.Title className='chese'>{t("text.joja")}</Card.Title>
                                         <Card.Title className='ches'>$15.00</Card.Title>
-                                        <Button className='cadbut'>Add to Cart</Button>
+                                        <Button className='cadbut'>{t("text.add")}</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -124,19 +131,19 @@ export default function Section1() {
                     </Col>
                     <Col xs={6}>
                         <h2 className='manword'>
-                            <span>Stay</span> at Home, We Will <br></br>Provide <span>Good Food</span>
+                            <span>{t("text.stay")} </span>{t("text.dom")}<br></br>{t("text.prov")}<span> {t("text.good")}</span>
                         </h2>
 
-                        <p className='manpi'>We provide  food and superfast delivery at <br></br>your home.  Let’s use our  right now and<br></br> get  of  to 50%.</p>
+                        <p className='manpi'>{t("text.we")}<br></br>{t("text.home")}<br></br> get  of  to 50%.</p>
 
                         <img src={time} alt='' className='timicon' />
-                        <h6 className='fastedtime'>fasted delivery in 30 Minutes</h6>
+                        <h6 className='fastedtime'>{t("text.fasted")}</h6>
 
                         <img src={outline} alt='' className='outline' />
-                        <h6 className='outlinetext'>300+ delivery men</h6>
+                        <h6 className='outlinetext'>{t("text.men")}</h6>
 
                         <img src={kitay} alt='' className='kitay' />
-                        <h6 className='kitaytext'>500+ restaurant & cafe shop</h6>
+                        <h6 className='kitaytext'>{t("text.res")}</h6>
                     </Col>
                 </Row>
 
