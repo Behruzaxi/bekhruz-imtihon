@@ -1,16 +1,20 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './Footeer.css'
+import { useTranslation } from 'react-i18next'
 const faka = require("../AllBaby/img/EFood.png")
 
 export default function Footer() {
+
+  const { t } = useTranslation()
+
   return (
    <>
     <Container>
         <Row  className='orange'>
             <Col>
-                    <h2 className='subscribe'>Subscribe to get the Latest Offer</h2>
-                    <p className='get'>Get our daily updates by subscribing to our newspaper, please drop your email below</p>
+                    <h2 className='subscribe'>{t("text.subyek")}</h2>
+                    <p className='get'>{t("text.fto")}</p>
                     <input placeholder='Enter your email addres' type='email' className='input'/>
                     <button className='folow'>Subscribe</button>
             </Col>

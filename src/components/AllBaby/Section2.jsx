@@ -1,6 +1,6 @@
 import React from 'react'
 import "./section2.css"
-import i18next from "i18next"
+// import i18next from "i18next"
 import { useTranslation } from 'react-i18next'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
@@ -20,9 +20,9 @@ export default function Section2() {
 
     const { t } = useTranslation()
 
-    const handleClick = (lang) => {
-        i18next.changeLanguage(lang)
-    }
+    // const handleClick = (lang) => {
+    //     i18next.changeLanguage(lang)
+    // }
 
     return (
         <>
@@ -110,9 +110,9 @@ export default function Section2() {
             <Container>
                 <Row>
                     <Col xs={6}>
-                            <h1 className='mobile'>{t("text.lo")}<span> {t("text.poo")}</span></h1>
+                            <h1 className='mobile'>{t("text.lo")}<span> {t("text.paa")}</span></h1>
                             <p className='itspi'>
-                            It's all at your fingertips -- the restaurants you love. Find<br></br>the right food to suit your mood, and make the first bite <br></br>last. Go ahead, download app and get 50% discount
+                           {t("text.love")}<br></br>{t("text.right")}<br></br>{t("text.ahead")}
                             </p>
 
                             <img src={apps} alt='' className='apps'/>
@@ -126,12 +126,12 @@ export default function Section2() {
 
             <Container>
                 <Row>
-                    <h1 className='what'>What Our Client Are <span>Saying</span> </h1>
+                    <h1 className='what'>{t("text.are")}<span> {t("text.say")}</span> </h1>
                     <Col xs={6}>
                         <img src={woman} alt='' className='woman'/>
                     </Col>
                     <Col xs={6}>
-                        <p className='pitags'>EFood has the most intriguing food order system in the country. UI in both their app and web Is very simple and easy to use, enhancing the UX. Their delivery men are also quite professional and knows the neighborhood well. Till now I never had to guide them to my address for delivery; </p>
+                        <p className='pitags'>{t("text.slah")}</p>
 
                         <h4 className='swam'><span>Anglina Jole</span></h4>
 
