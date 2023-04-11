@@ -1,5 +1,5 @@
 import React from 'react'
-import i18next from "i18next"
+// import i18next from "i18next"
 import "./section1.css"
 import { useTranslation } from 'react-i18next'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
@@ -22,9 +22,9 @@ export default function Section1() {
 
     const { t } = useTranslation()
 
-    const handleClick = (lang) => {
-        i18next.changeLanguage(lang)
-    }
+    // const handleClick = (lang) => {
+    //     i18next.changeLanguage(lang)
+    // }
     return (
         <>
             <Container>
