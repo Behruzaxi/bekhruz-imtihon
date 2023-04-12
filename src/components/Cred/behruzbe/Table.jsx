@@ -10,13 +10,13 @@ export default function GetData() {
 const [user, setUser] = useState([])
 
 const getAllData = () => {
-    axios.get("http://localhost:3000/data").then((data) => {
+    axios.get("https://bexruz-server.onrender.com/data").then((data) => {
         setUser(data.data)
     })
 }
 
 const delete_func = (id) => {
-    axios.delete(`http://localhost:3000/data/${id}`)
+    axios.delete(`https://bexruz-server.onrender.com/data/${id}`)
 }
 
 useEffect(() => {

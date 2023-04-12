@@ -21,7 +21,7 @@ export default function Header() {
     
     const postdata = (e) => {
         e.preventDefault()
-        axios.post("http://localhost:3000/data", obj).then(res => {
+        axios.post("https://bexruz-server.onrender.com/data", obj).then(res => {
             if(res.status === 201){
                 alert(res.statusText );
                  setName("")
